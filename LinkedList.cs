@@ -41,7 +41,7 @@ namespace DataStructure
             }
         }
 
-        internal void InsertAtParticularPosition(int position, int data)
+        public void InsertAtParticularPosition(int position, int data)
         {
             Node newestNode = new Node(data);
             if (this.head == null)
@@ -65,6 +65,14 @@ namespace DataStructure
             newestNode.next = prev.next;
             prev.next = newestNode;
 
+        }
+
+        public Node RemoveFirstNode()
+        {
+            if (this.head == null)
+                return null;
+            this.head = this.head.next;
+            return this.head;
         }
     }
 }
