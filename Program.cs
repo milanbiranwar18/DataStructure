@@ -43,8 +43,11 @@ namespace DataStructure
             stack.Push(30);
             stack.Push(70);
             stack.Display();
-
-
+            Console.WriteLine("  ");
+            Console.WriteLine("-------------------");
+            //stack.Pop();
+            //stack.Peek();
+            stack.IsEmpty();    
 
 
 
