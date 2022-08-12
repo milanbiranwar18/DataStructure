@@ -8,9 +8,12 @@ namespace DataStructure
     {
         public static void Main(string[]args)
         {
-            Console.WriteLine("Wellcome to DataStructure Problem");    
+            Console.WriteLine("Wellcome to DataStructure Problem");
 
-
+            LinkedList list = new LinkedList();
+            list.Add(56);
+            list.Add(30);
+            list.Add(70);
         }
     }
 }
