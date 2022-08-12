@@ -23,11 +23,20 @@ namespace DataStructure
             //Console.WriteLine(" ");
             //Console.WriteLine("30 Added between 56 and 70");
 
-            Console.WriteLine(" ");
-            Console.WriteLine("---------------------");
-            list.RemoveFirstNode();
+
+
+            //list.RemoveFirstNode();
+            //list.Display();
+            //Console.WriteLine(" ");
+            //Console.WriteLine(" First element deleted ");
+            //Console.WriteLine("---------------------");
+
+            
+            list.RemoveLastNode();
             list.Display();
-            Console.WriteLine(" First element deleted ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" Last element deleted ");
+            Console.WriteLine("---------------------");
         }
     }
 }
