@@ -31,12 +31,18 @@ namespace DataStructure
             //Console.WriteLine(" First element deleted ");
             //Console.WriteLine("---------------------");
 
+
+            //list.RemoveLastNode();
+            //list.Display();
+            //Console.WriteLine(" ");
+            //Console.WriteLine(" Last element deleted ");
+            //Console.WriteLine("---------------------");
+
+           
+            list.Search(30);
+           list.Display();
+           
             
-            list.RemoveLastNode();
-            list.Display();
-            Console.WriteLine(" ");
-            Console.WriteLine(" Last element deleted ");
-            Console.WriteLine("---------------------");
         }
     }
 }
