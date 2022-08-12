@@ -25,5 +25,20 @@ namespace DataStructure
             }
             Console.WriteLine("{0} inserted into the linked list", node.data);
         }
+
+        public void Display()
+        {
+            Node temp = this.head;
+            if (temp == null)
+            {
+                Console.WriteLine("Linked list is empty");
+                return;
+            }
+            while (temp != null)
+            {
+                Console.Write(temp.data + " ");
+                temp = temp.next; 
+            }
+        }
     }
 }
