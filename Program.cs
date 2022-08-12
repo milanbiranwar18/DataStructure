@@ -15,6 +15,14 @@ namespace DataStructure
             list.Add(30);
             list.Add(70);
             list.Display();
+            Console.WriteLine(" ");
+            Console.WriteLine("---------------------");
+
+            list.InsertAtParticularPosition(2, 30);
+            list.Display();
+            Console.WriteLine(" ");
+            Console.WriteLine("30 Added between 56 and 70");
+
 
 
         }
