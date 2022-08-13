@@ -10,7 +10,7 @@ namespace DataStructure
     {
         public Node head = null;
 
-        internal void Enqueue(int data)
+        public void Enqueue(int data)
         {
             Node node = new Node(data);
             if (head == null)
@@ -30,7 +30,7 @@ namespace DataStructure
 
         }
 
-        internal void Display()
+        public void Display()
         {
             Node temp = this.head;
             if (temp == null)
@@ -44,6 +44,11 @@ namespace DataStructure
                 Console.Write(temp.data + " ");
                 temp = temp.next;
             }
+        }
+
+        public void Dequeue()
+        {
+            
         }
     }
 }
