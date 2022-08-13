@@ -57,6 +57,10 @@ namespace DataStructure
             queue.Enqueue(30);
             queue.Enqueue(70);
             queue.Display();
+
+            Console.WriteLine("  ");
+            queue.Dequeue();
+            queue.Display();
             
 
 
